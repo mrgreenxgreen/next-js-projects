@@ -1,7 +1,7 @@
 
-const GalleryId = ({paramId}:{paramId:{galleryId:string}}) => {
+const GalleryId = ({params}:{params:{galleryId:string}}) => {
   return (
-    <div> GalleryId = {paramId.galleryId}</div>
+    <div> GalleryId = {params.galleryId}</div>
   )
 }
 
